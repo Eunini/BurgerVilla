@@ -49,9 +49,10 @@ function scrollToTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-const name = document.getElementById("name").value.trim();
+var name = document.getElementById("name").value.trim();
 // pop up msg
   function showAlert() {
+      var name = document.getElementById("name").value.trim();
     Swal.fire({
       title: `Hello, {name}`,
       text: 'Your message have been received!',
@@ -59,4 +60,5 @@ const name = document.getElementById("name").value.trim();
       confirmButtonText: 'OK'
     });
   }
+setTimeout(showAlert, 10000);
 
