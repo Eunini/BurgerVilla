@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerVilla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Lexend+Deca:wght@200&family=Lexend:wght@200;400;600&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Mono:ital,wght@1,100&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- scrollreveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">BurgerVilla</h1>
+      <button class="navbar-toggler" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#our-team">Our Team</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#review">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Your content goes here -->
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="headline">Welcome to Burger Villa</h1>
+      <p class="subheadline">Experience the Best Burgers in Town</p>
+      <a href="#menu" class="cta-button">View Menu</a>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h3 class="section-title">About Us</h3>
+      <p class="section-description">Burger Villa is a family-owned restaurant dedicated to serving delicious, high-quality burgers made from locally sourced ingredients. Our passion for great food and exceptional service sets us apart.</p>
+      <div class="quote">
+        <p class="quote-text">"At Burger Villa, we believe that every meal should be an experience. From our carefully crafted burgers to our warm and inviting atmosphere, we strive to create memorable moments for our guests."</p>
+        <p class="quote-author">- Antonia moore, Founder of Burger Villa</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- our team -->
+  <section class="our-team" id="our-team">
+    <span>meet our</span>
+    <h2>Team</h2>
+    <p>At BurgerVilla, we take pride in our talented and passionate team who work tirelessly to bring you the best burger experience. Get to know the faces behind the deliciousness!</p>
+    <span class="bg-watermark">team</span>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Franklin Carlson">
+        <div class="card-content">
+          <h3>franklin carlson</h3>
+          <p>head cook</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Antonia Moore">
+        <div class="card-content">
+          <h3>Antonia moore</h3>
+          <p>founder of BurgerVilla</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Travis Lynch">
+        <div class="card-content">
+          <h3>travis lynch</h3>
+          <p>assistant head cook</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- menu section -->
+  <section id="menu" class="menu" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="menu-items">
+  <!-- tornpaper.js -->
+  <!-- using TornPaper.js -->
+
+<div class="tornpaper">
+  <main>
+    <div id="gallery">
+        <article class="card no_bg">
+            <div>
+                <h1>Burger Villa<br />menu gallery</h1>
+            </div>
+        </article>
+
+        <article class="card" style="--img:url('2.jpg');">
+            <h2>1.Mushroom Swiss Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('1.png');">
+            <h2>2.Double Bacon Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('9.png');">
+            <h2>3.Classic burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('3.jpg');">
+            <h2>4.BBQ Bacon Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('4.jpg');">
+            <h2>5.BBQ Bacon Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('7.png');">
+            <h2>6.Spicy Chicken Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('8.png');">
+            <h2>7.Veggie Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('5.jpg');">
+            <h2>8.Guacamole Bacon Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('10.png');">
+            <h2>9.Buffalo Chicken Burger</h2>
+        </article>
+
+        <article class="card" style="--img:url('6.png');">
+            <h2>10.Spicy Jalapeno Burger</h2>
+        </article>
+    </div>
+</main>
+
+</div>
+      </div>
+</section>
+
+
+
+
+  <!-- reviews -->
+   
+   <div class="swiper-container" id="review">
+    <h1>Reviews</h1>
+    <!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "autoPlay": true }'>
+
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat3.jpeg" alt="Customer 1">
+          </div>
+          <h3>Jean Doe</h3>
+          <p>"The burgers at Burger Villa are absolutely amazing! I can't get enough of them. The ingredients are always fresh, and the flavors are unmatched."</p>
+        </div>
+      </div>
+      
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat2.jpeg" alt="Customer 2">
+          </div>
+          <h3>John Smith</h3>
+          <p>"I've been a regular at Burger Villa for years now, and I must say, they never disappoint. The quality of their burgers is consistently top-notch, and their service is excellent."</p>
+        </div>
+      </div>
+    
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat1.jpeg" alt="Customer 3">
+          </div>
+          <h3>Alexa Johnson</h3>
+          <p>"Burger Villa is my go-to spot whenever I crave a juicy burger. Their menu offers a great variety, and each burger is bursting with flavor. Highly recommended!"</p>
+        </div>
+      </div>
+    
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat4.jpeg" alt="Customer 4">
+          </div>
+          <h3>Sam Brown</h3>
+          <p>"As a burger enthusiast, I've tried burgers from various places, but Burger Villa stands out. Their attention to detail and commitment to quality make them the best in town."</p>
+        </div>
+      </div>
+     
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat5.jpeg" alt="Customer 5">
+          </div>
+          <h3>David Wilson</h3>
+          <p>"Burger Villa never fails to impress. Their burgers are not only delicious but also reasonably priced. It's my favorite spot to grab a quick and satisfying meal."</p>
+        </div>
+      </div>
+   
+      <div class="carousel-cell">
+        <div class="review">
+          <div class="meal-image">
+            <img src="eat6.jpeg" alt="Customer 6">
+          </div>
+          <h3>Lisa Martinez</h3>
+          <p>"I stumbled upon Burger Villa while exploring the neighborhood, and it's been a delightful find. The ambiance, the food, everything is perfect. I'm definitely coming back!"</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+ 
+
+  <!-- Contact section -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <div class="big-container">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-description">Have questions or feedback? Reach out to us!</p>
+        <form class="contact-form" id="contactForm">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button class="submit-button" onclick="showAlert()">Send Message</button>
+        </form>
+        <div class="response" id="response"></div>
+      </div>
+  
+      <div class="image">
+        <img src="contact.png" alt="" style="width: 500px; height: 500px;">
+      </div>
+    </div>
+<!-- scroll to top -->
+    <span>
+      <div id="scrollUpBtn" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </span>
+
+  </section>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper@v0.0.3/tornpaper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</body>
+</html>
