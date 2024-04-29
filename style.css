@@ -677,7 +677,6 @@ section .cards .card:nth-child(3)::before {
     scroll-behavior: smooth;
 }
 .tornpaper{
-    font-family: "Asap", sans-serif;
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -713,7 +712,7 @@ section .cards .card:nth-child(3)::before {
 }
 .tornpaper footer {
     position: relative;
-    font-family: "Asap", sans-serif;
+
     margin: 1rem 0;
     color: #555;
 }
