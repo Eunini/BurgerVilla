@@ -52,13 +52,14 @@ function scrollToTop() {
 var name = document.getElementById("name").value.trim();
 // pop up msg
   function showAlert() {
-      var name = document.getElementById("name").value.trim();
+      //var name = document.getElementById("name").value.trim();
     Swal.fire({
-      title: `Hello, {name}`,
+      title: 'Hello dear',
+      timer: 7000,
       text: 'Your message have been received!',
       icon: 'info',
       confirmButtonText: 'OK'
     });
   }
-setTimeout(showAlert, 10000);
+//setTimeout(showAlert, 10000);
 
