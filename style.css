@@ -261,6 +261,11 @@ body {
   }
   .menu .container h2{
     margin: 30px  auto;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-bottom: 3px solid white;
+    width: 200px;
   }
   .menu {
     z-index: 1;
@@ -854,7 +859,6 @@ article:nth-child(7n + 6 of .card) {
 ;
 }
 #scrollUpBtn i {
-  position: fixed;
   text-align: center;
   justify-content: center;
   display: flex;
